@@ -10,7 +10,7 @@
     background-image: url("./bg1.jpg");
     min-height: 665px;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -315,19 +315,25 @@ button:hover{
     margin-top: 10px;
 }
 
-@media only screen and (max-device-width: 860px) {
+@media screen and (max-width: 860px) {
     .parallax {
       background-attachment: scroll;
     }
     .container h1{
-        font-size: unset;
+        font-size: 30px;
         margin-left: unset;
         margin-right: unset;
         line-height: unset;
     }
     .container h3{
-        font-size:unset;
+        font-size:15px;
         margin-left: unset;
         margin-right: unset;
+    }
+    .btn{
+        padding-bottom: 50px;
+    }
+    .btn1{
+        margin-bottom: 20px;
     }
   }
