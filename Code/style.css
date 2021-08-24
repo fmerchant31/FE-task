@@ -73,7 +73,8 @@
 .main_nav ul ul li{
     float: none;
     margin: 0;
-    border-bottom: 1px solid #000;
+    width: 128px;
+    
 
 }
 .main_nav ul ul li a{
@@ -91,20 +92,6 @@
     /*.main_nav ul li a{padding:5px 10px;}*/
 }
 
-/*@media screen and (max-width:860px){
-    .parallax{
-        background-color: url(./bg1.jpg);
-        background-attachment: scroll;
-    }
-    .container{
-        margin: 0;
-    }
-     h1{
-         padding 0;
-        font-size: 20px;
-    }
-}*/
-
 @media screen and (min-width:768px){
 .nav_icon, #navTrigger{
     display: none;
@@ -114,8 +101,8 @@
     .main_nav{ /*display: none;*/
     margin-right: 50px;
     position: fixed;
-    right: 40px;
-    top: 72px;
+    right: 1px;
+    top: 60px;
     padding: 0;
     background: #fff;
     z-index:100;
@@ -132,7 +119,7 @@
         font-size: 36px;
         color:#000;
         cursor: pointer;
-        margin-right: 50px;
+        
     }
     .main_nav ul li{
         float: none;
@@ -175,68 +162,6 @@
         transform: translateX(0%);
     }
 }
-/*header{
-    /*display: flex;
-    /*justify-content: space-between;
-    
-    align-items: center;
-    background-color: #fff;
-}
-.menu-area a{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-   
-}
-.menu-area ul{
-    display: flex;
-}
-.menu-area ul li{
-    position: relative;
-    width: 100%;
-    text-align: center;
-}
-.menu-area li:hover .drop li{
-    top: 0;
-    display: block;
-}
-.drop ul li{
-    display: none;
-    position: relative;
-}
-.drop{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}*/
-
-/*.logo{
-    margin-left: 40px;
-    cursor: pointer;
-
-}
-
-.nav__links li{
-    display: inline-block;
-    padding: 0px 20px;
-    
-}
-.nav__links{
-    margin-right: 40px;
-}
-.drop{
-    display: flex;
-    flex-direction: column;
-    opacity: 0;
-    visibility: hidden;
-}
-.dropdown{
-    /*margin-top: 10px;
-    opacity: 1;
-    visibility: visible;
-}*/
 
 .container{
     text-align: center;
@@ -316,7 +241,7 @@ button:hover{
     margin-top: 10px;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 560px) {
     .parallax {
       background-attachment: scroll;
     }
@@ -324,15 +249,41 @@ button:hover{
         margin: 0;
     }
     .container h1{
-        font-size: 30px;
+        font-size: 45px;
         margin-left: unset;
         margin-right: unset;
-        line-height: unset;
+        line-height: 36px;
     }
     .container h3{
         font-size:15px;
         margin-left: unset;
         margin-right: unset;
+    }
+    .btn{
+        padding-bottom: 50px;
+    }
+    .btn1{
+        margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 992px ) and (min-width: 561px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+    .container{
+        margin: 10px 50px 50px;
+        
+    }
+    .container h1{
+        font-size: 55px;
+        /*margin-left: unset;
+        margin-right: unset;*/
+        line-height: 50px;
+    }
+    .container h3{
+        font-size:20px;
+        /*margin-left: unset;
+        margin-right: unset;*/
     }
     .btn{
         padding-bottom: 50px;
